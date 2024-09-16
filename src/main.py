@@ -3,7 +3,7 @@ EXIT_PROMPT = "exit"
 import dspy
 from chromadb_rm import ChromadbRM
 import os
-
+os.environ['OPENAI_API_KEY'] = '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'
 class GenerateAnswer(dspy.Signature):
     """Answer questions given the context"""
 

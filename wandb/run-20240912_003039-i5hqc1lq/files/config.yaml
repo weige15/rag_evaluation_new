@@ -1,0 +1,79 @@
+wandb_version: 1
+
+number_of_questions:
+  desc: null
+  value: 155
+comments:
+  desc: null
+  value: Simple QA RAG model with no teleprompter - chunk overlap size 0
+model:
+  desc: null
+  value: RAG
+dataset:
+  desc: null
+  value: Synthetic
+num_passages:
+  desc: null
+  value: 5
+openai_model:
+  desc: null
+  value: gpt-3.5-turbo
+chroma_collection_name:
+  desc: null
+  value: test-overlap-64
+chroma_persist_directory:
+  desc: null
+  value: chroma.db
+chroma_local_embed_model:
+  desc: null
+  value: sentence-transformers/paraphrase-MiniLM-L6-v2
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.17.8
+    framework: huggingface
+    huggingface_version: 4.37.2
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    start_time: 1726072239
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      - 86
+      - 92
+      - 95
+      - 105
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      - 86
+      - 92
+      - 95
+      - 105
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.17.8
+      6: 4.37.2
+      8:
+      - 1
+      - 2
+      - 3
+      - 5
+      13: windows-amd64

@@ -1,0 +1,51 @@
+wandb_version: 1
+
+chuck_size:
+  desc: null
+  value: 1024
+sentence_chunck_overlap:
+  desc: null
+  value: 200
+number_of_questions:
+  desc: null
+  value: 773
+comments:
+  desc: null
+  value: Synthetic dataset where ground truth and the answer are the same.
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.17.8
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    start_time: 1726069056
+    t:
+      1:
+      - 49
+      - 51
+      - 53
+      - 55
+      - 86
+      - 95
+      - 105
+      2:
+      - 49
+      - 51
+      - 53
+      - 55
+      - 86
+      - 95
+      - 105
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.17.8
+      8:
+      - 1
+      - 2
+      - 3
+      - 5
+      13: windows-amd64
